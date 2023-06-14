@@ -1,10 +1,10 @@
-function App() {
+import { BrowserRouter } from "react-router-dom"
+import { AppRoutes } from "./routes"
 
+export default function App() {
   return (
-    <>
-      <h1>Hello Vite + React!</h1>
-    </>
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   )
 }
-
-export default App
